@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "multiparty": "^4.2.3",
+    "nodemailer": "^6.7.3"
+  },
+  "scripts": {
+    "dev" : "nodemon ContactUsServer.js",
+    "start" : "node ContactUsServer.js"
+
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
