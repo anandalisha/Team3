@@ -10,57 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
-    <!-- <script
-      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly"
-      async
-    ></script> -->
-    
-    
-
-    <style>
-        body{
-            font-family: 'Hind', sans-serif;
-        }
-        .heading{
-            /* border: 2px solid red; */
-            width: 90vw;
-            height: 600px;
-            margin-left: 25px;
-            margin-top: 5px;
-            padding: 10px 13px;
-            display: flex;
-            flex-flow: row;
-            align-items: center;
-            justify-content:center;
-        }
-        h2{
-            font-size: 2rem;
-            font-weight: 900;
-            /* margin-bottom: 32px; */
-            margin-left: 115px;
-            margin-top: 37px;
-            
-        }
-        .space{
-            margin-top: 15px;
-            font-size: large;
-            color: black;
-        }
-        .mapping{
-            border: 2px solid red;
-            position: relative;
-            width: 450px;
-            height: 500px;
-            margin-left: 20px;
-            top:-10px;
-            left:30px
-        }
-        #map{
-            width: 70%;
-        }
-    
-    </style>
-    <title>Hello, world!</title>
+    <title>Contact Us</title>
   </head>
   <body>
     <div class="navigation">
@@ -91,20 +41,16 @@
         
         <form class="contact-form" method="post" action="send" enctype="multipart/form-data">
             <div class="form-group">
-              <!-- <label for="exampleInputEmail1">Email address</label> -->
               <input type="name" name="name" class="form-control" id="exnamne" placeholder="Your Name">
-              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
             </div>
             <div class="form-group">
-              <!-- <label for="exampleInputPassword1">Password</label> -->
               <input type="email" name="email" class="form-control" id="exemail" placeholder="Your Email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
-              <!-- <label for="exampleInputPassword1">Password</label> -->
               <input type="subject" name="subject" class="form-control" id="exsubject" placeholder="Subject">
             </div>
             <div class="form-group">
-              <!-- <label for="exampleInputPassword1">Password</label> -->
               <textarea name="message" name="message" class="form-control" id="exmessage" cols="87" rows="10" placeholder="Your Message"></textarea>
             </div>
 
@@ -118,9 +64,8 @@
           <div id="map" class="mapping"></div>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="/ContactUs/ContactUsClient.js"></script>
+    
+    <script src="JS/ContactUsClient.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

@@ -1,0 +1,39 @@
+body{
+    font-family: 'Hind', sans-serif;
+}
+.heading{
+    /* border: 2px solid red; */
+    width: 90vw;
+    height: 600px;
+    margin-left: 25px;
+    margin-top: 5px;
+    padding: 10px 13px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content:center;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 900;
+    /* margin-bottom: 32px; */
+    margin-left: 115px;
+    margin-top: 37px;
+    
+}
+.space{
+    margin-top: 15px;
+    font-size: large;
+    color: black;
+}
+.mapping{
+    position: relative;
+    width: 450px;
+    height: 500px;
+    margin-left: 20px;
+    top:-10px;
+    left:30px
+}
+#map{
+    width: 70%;
+}
