@@ -9,8 +9,8 @@ contactForm.addEventListener('submit',(event)=>{
     event.preventDefault();
 
     let formData = {
-        name:name.value,
-        email:email.value,
+        name: name.value,
+        email: email.value,
         subject: subject.value,
         message : message.value
     }
