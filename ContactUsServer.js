@@ -22,7 +22,7 @@ app.post('/',(req,res)=>{
         port : 465,
         auth : {
             user : 'ankitkumarsingh.techmihirnaik@gmail.com',
-            pass : 'techmihir@ankit'
+            pass : '123'
         }
     })
 
