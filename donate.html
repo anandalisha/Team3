@@ -20,14 +20,18 @@
     width: 100vw;
     background: black;
     overflow: hidden;
-    background: black;  /* fallback colour. Make sure this is just one solid colour. */
+    background: black;  /* fallback colour. Make sure this is just one solid colour. 
     background: -webkit-linear-gradient(rgba(30, 33, 52, 0.8), rgba(34, 33, 33, 0.8)), url("https://images.unsplash.com/photo-1537123547273-e59f4f437f1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
-    background: linear-gradient(rgba(30, 33, 52, 0.8), rgba(40, 39, 39, 0.8)), url("https://images.unsplash.com/photo-1537123547273-e59f4f437f1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); /* The least supported option. */
+    background: linear-gradient(rgba(30, 33, 52, 0.8), rgba(40, 39, 39, 0.8)), url("https://images.unsplash.com/photo-1537123547273-e59f4f437f1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); */
+    background: -webkit-linear-gradient(rgba(30, 33, 52, 0.8), rgba(34, 33, 33, 0.8)), url("image/home_bg_img.jpg");
+    background: linear-gradient(rgba(30, 33, 52, 0.8), rgba(40, 39, 39, 0.8)), url("image/home_bg_img.jpg"); 
 }
 
 img {
    object-fit: cover;
+   
 }
+
 </style>
 </head>
 <body>
@@ -45,16 +49,16 @@ img {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <h3><a class="nav-link active text-lg-center" aria-current="page" href="index.html">Home</a></h3>
+                <h3><a class="nav-link active text-lg-center" aria-current="page" href="index.html">Home&nbsp</a></h3>
               </li>
               <li class="nav-item">
-                <h3><a class="nav-link active text-lg-center" aria-current="page" href="index.html">About</a></h3>
+                <h3><a class="nav-link active text-lg-center" aria-current="page" href="index.html">About&nbsp</a></h3>
               </li>
               <li class="nav-item">
-                <h3><a class="nav-link active text-lg-center" aria-current="page" href="index.html">Services</a></h3>
+                <h3><a class="nav-link active text-lg-center" aria-current="page" href="index.html">Services&nbsp</a></h3>
               </li>
               <li class="nav-item">
-                <h3><a class="nav-link active text-lg-center" aria-current="page" href="index.html">Contact</a></h3>
+                <h3><a class="nav-link active text-lg-center" aria-current="page" href="index.html">Contact&nbsp</a></h3>
               </li>
               
                 </ul>
@@ -66,8 +70,7 @@ img {
       
       <!-- navbar Ends  -->
 
-      <header>
-        <section class='hero-header-text'>
+        <section class='hero-header-text waving'>
             <center>
                 <br><br>
                 <br><br>
@@ -77,7 +80,9 @@ img {
 
         <br><br>
         
+        
         </center>
+        
             
         </section>
     </header>
@@ -85,15 +90,18 @@ img {
 
     <section>
         <center>
-                <div style="background-color: black; width: 300px; border-radius: 5px;color: white;">
+                <!--<div style="background-color: black; width: 300px; border-radius: 5px;color: white;">
                     <h1>Payment options</h1>
-                </div><br>
-                                <h3 style="color: black;"><span>IF ANYONE WANTS TO DONATE KINDLY THEN CONTACT BELOW:</span><br>
-                                    NAME – RAKSHIT KAPOOR<br>UPI ID – rkapoor3103@oksbi </h3><br>
+                </div><br>-->
+                <h1 class="heading"> Payment <span>Options</span> </h1>
+                                <h1 style="color: black;"><span>IF ANYONE WANTS TO DONATE KINDLY THEN CONTACT BELOW:</span><br><br>
+                                    NAME – RAKSHIT KAPOOR (Founder)<br>UPI ID – rkapoor3103@oksbi <br>Contact No. – 8847342353 </h1><br>
                 <div class="image">
-                    <img src="../pet shop/image/Screenshot 2022-04-11 at 12.14.36 PM.png" alt="" class="center" style="height: 400px; width: 400px;">
+                    <img src="../pet shop/image/Screenshot 2022-04-11 at 12.14.36 PM.png" alt="" class="center" style="height: 280px; width: 280px;border: 2px 5px 2px 5px; border-radius: 7px 0 7px 0; box-shadow: 5px 0 5px 0; border-color: brown;">
                 </div>
             <br>
+            <h3 class="heading">Donate for a <span> Cause </span>  </h3>
+            <h3 class="heading">For <span> Cause For Pawz </h3>
                 <button class="btn btn-primary btn-lg">Scan to Pay</button>
                 
         </center>
@@ -109,20 +117,21 @@ img {
 
 <section class="footer">
     <div class="image">
-        <a href="https://forms.gle/m8gZnypuKZMucjMF7"></a>
-        <center></center>
+        
     </div>
     <div class="share">
     
-        <a href="https://www.instagram.com/_causeforpawz_/?utm_medium=copy_link" class="btn"> <i class="fab fa-instagram"></i> instagram </a>
-        <a href="mailto: causeforpawz01@gmail.com" class="btn"> <i class="fa fa-envelope"></i> Email </a>
-        <a href="donate.html" class="btn"> <i class="fa fa-hands"></i> Donate Now </a>
+        <a href="https://www.instagram.com/_causeforpawz_/?utm_medium=copy_link" class="btn" style="font-size: 20px; border-radius: 7px 0 7px 0;"> <i class="fab fa-instagram"></i> instagram </a>
+        <a href="mailto: causeforpawz01@gmail.com" class="btn" style="font-size: 20px; border-radius: 7px 0 7px 0;"> <i class="fa fa-envelope"></i> Email </a>
+        <a href="donate.html" class="btn" style="font-size: 20px; border-radius: 7px 0 7px 0;"> <i class="fa fa-hands"></i> Donate Now </a>
     </div><br><br>
-    <center><div style="color: white; font-size: 12px;">rakshitkapoor31@yahoo.com</div></center>
+    <center><div style="color: white; font-size: 18px;">rakshitkapoor31@yahoo.com<br>
+      <p class="">Contact No. : <span style="color: rgb(201, 123, 15);"> 8847342353 </span>  </p>
+    </div></center>
     
 
     <div class="credit">All rights reserved! <span> @Cause For Pawz </span>  </div>
-    <div class="credit" style="font-size: 12px;">Proudly Created by <span> @techmihirnaik </span>  </div>
+    <div class="credit" style="font-size: 15px;">Proudly Created by <span> @techmihirnaik </span>  </div>
 
 </section>
 
