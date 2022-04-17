@@ -11,38 +11,48 @@
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     
 <!-- header section starts  -->
 
-<header class="header">
-
-    <a href="#" class="logo"> <img src="image/logo.png" title="logo" width="90" height="60" ALT="logo" /> </a>
-
-
-    <nav class="navbar" style="color: black;">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-        <a href="donate.html">Donate</a>
-    </nav>
-
-    <div class="icons">
-        <div class="fas fa-bars" id="menu-btn"></div>
-        <a href="#" class=""></a>
-        <div class="" id="login-btn"></div>
+<nav class="navbar navbar-expand-lg navbar-light bg-white static-top sticky-lg-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="image/logo.png" alt="..." height="80">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <h3><a class="nav-link active text-lg-center" aria-current="page" href="#">Home&nbsp</a></h3>
+          </li>
+          <li class="nav-item">
+            <h3><a class="nav-link active text-lg-center" aria-current="page" href="#about">About&nbsp</a></h3>
+          </li>
+          <li class="nav-item">
+            <h3><a class="nav-link active text-lg-center" aria-current="page" href="#services">Services&nbsp</a></h3>
+          </li>
+          <li class="nav-item">
+            <h3><a class="nav-link active text-lg-center" aria-current="page" href="#contact">Contact&nbsp</a></h3>
+          </li>
+          <li class="nav-item">
+            <h3><a class="nav-link active text-lg-center" aria-current="page" href="donate.html">Donate&nbsp</a></h3>
+          </li>
+          
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
+  
+  <!-- navbar Ends  -->
 
-
-    
-    <form action="" class="login-form"></form>
-    </form>
-
-
-
-</header>
 
 <!-- header section ends -->
 
@@ -52,8 +62,8 @@
 
     <div class="content">
         <h3> <span>CAUSE FOR PAWZ</span><br></h3>
-        <h2 style="color: aliceblue; font-size: 3rem;">A Cause for the four paws</h2>
-        <a href="donate.html" class="btn"> <i class="fa fa-hands"></i> Donate Now </a>
+        <h2 style="color: aliceblue; font-size: 3rem;">A Cause for the four paws</h2><br>
+        <a href="donate.html" class="btn" style="font-size: 20px; border-radius: 7px 0 7px 0;"> <i class="fa fa-hands"></i> Donate Now </a>
     </div>
 
     <img src="image/bottom_wave.png" class="wave" alt="">
@@ -80,7 +90,7 @@
             <br>We are treating numerous dogs at this moment and trying to reach as much as we can. In addition to this we are in collaboration with many cafes and a tech-based company.
         </p></center>
         
-        <!--<a href="#" class="btn">read more</a>-->
+        
     </div>
 
 </section>
@@ -139,11 +149,11 @@
     </div>
 
     <form action="javascript:sendMail()" method="post">
-        <h3>Contact us</h3>
+        <h1 class="heading"> Contact <span>Us</span> </h1>
         <input type="text" id="exname" name="Name" placeholder="Your name" class="box">
         <input type="email" id="exmail" name="Mail" placeholder="Your email" class="box">
         <textarea name="message" name="Message" placeholder="your message" id="exmessage" cols="30" rows="10"></textarea>
-        <input type="submit"  value="send message" class="btn">
+        <input type="submit"  value="send message" class="btn btn-dark" style="font-size: 20px; border-radius: 7px 0 7px 0; color: white; border: 2px black;">
     </form>
 
 </section>
@@ -158,15 +168,17 @@
     </div>
     <div class="share">
     
-        <a href="https://www.instagram.com/_causeforpawz_/?utm_medium=copy_link" class="btn"> <i class="fab fa-instagram"></i> instagram </a>
-        <a href="mailto: causeforpawz01@gmail.com" class="btn"> <i class="fa fa-envelope"></i> Email </a>
-        <a href="donate.html" class="btn"> <i class="fa fa-hands"></i> Donate Now </a>
+        <a href="https://www.instagram.com/_causeforpawz_/?utm_medium=copy_link" class="btn" style="font-size: 20px; border-radius: 7px 0 7px 0;"> <i class="fab fa-instagram"></i> instagram </a>
+        <a href="mailto: causeforpawz01@gmail.com" class="btn" style="font-size: 20px; border-radius: 7px 0 7px 0;"> <i class="fa fa-envelope"></i> Email </a>
+        <a href="donate.html" class="btn" style="font-size: 20px; border-radius: 7px 0 7px 0;"> <i class="fa fa-hands"></i> Donate Now </a>
     </div><br><br>
-    <center><div style="color: white; font-size: 12px;">rakshitkapoor31@yahoo.com</div></center>
+    <center><div style="color: white; font-size: 18px;">rakshitkapoor31@yahoo.com<br>
+        <p class="">Contact No. : <span style="color: rgb(201, 123, 15);"> 8847342353 </span>  </p>
+    </div></center>
     
 
     <div class="credit">All rights reserved! <span> @Cause For Pawz </span>  </div>
-    <div class="credit" style="font-size: 12px;">Proudly Created by <span> @techmihirnaik </span>  </div>
+    <div class="credit" style="font-size: 15px;">Proudly Created by <span> @techmihirnaik </span>  </div>
 
 </section>
 
@@ -183,8 +195,6 @@
         var name = $('#exname').val();
         var email = $('#exmail').val();
         var message = $('#exmessage').val();
-        // var name = $('#exname').val();
-        // console.log(email)
 
         var body = 'Name: '+name+'<br><br> Email: '+email+'<br><br>Message: '+message + '<br><br>Team CauseForPawz <br>Pvt. Ltd.';
         var subject = 'Feedback from Causeforpawz'
@@ -193,8 +203,8 @@
         Host : "smtp.gmail.com",
         Username : "ankitkumarsingh.techmihirnaik@gmail.com",
         Password : "meojrsnxunxhijop",
-        To : email,
-        From : "causeforpawz01@gmail.com",
+        To : "causeforpawz01@gmail.com",
+        From : email,
         Subject : subject,
         Body : body
     }).then(
